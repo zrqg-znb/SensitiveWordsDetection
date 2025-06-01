@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="200" viewBox="0 0 200 200">
+  <!-- 六边形主体 -->
+  <polygon points="100,20 167.3,60 167.3,140 100,180 32.7,140 32.7,60"
+           fill="#007BFF"
+           stroke="#FFFFFF"
+           stroke-width="2" />
+  <!-- 环绕光线效果，使用多个圆形模拟 -->
+  <circle cx="100" cy="100" r="30" fill="none" stroke="#00BFFF" stroke-width="4" stroke-dasharray="10 5" stroke-dashoffset="0" />
+  <circle cx="100" cy="100" r="40" fill="none" stroke="#4DD0E1" stroke-width="3" stroke-dasharray="10 5" stroke-dashoffset="5" />
+  <circle cx="100" cy="100" r="50" fill="none" stroke="#80DEEA" stroke-width="2" stroke-dasharray="10 5" stroke-dashoffset="10" />
+  <!-- 添加一些小的点缀元素 -->
+  <circle cx="80" cy="80" r="5" fill="#00BFFF" />
+  <circle cx="120" cy="120" r="5" fill="#4DD0E1" />
+  <circle cx="70" cy="130" r="5" fill="#80DEEA" />
+  <circle cx="130" cy="70" r="5" fill="#00BFFF" />
+</svg>
