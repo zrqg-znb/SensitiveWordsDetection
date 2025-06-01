@@ -121,4 +121,4 @@ pnpm dev
 
 若有其他功能定制开发可扫码添加作者，备注来意。
 
-<img src="assets/img_7.png" alt="image-20230927145327188" style="zoom:30%;" />
+<img src="assets/img_7.png" alt="image-20230927145327188" style="height:200px;" />
