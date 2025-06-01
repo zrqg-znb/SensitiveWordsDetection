@@ -69,12 +69,8 @@
       <!-- 开发时间线-->
       <n-card title="开发时间线" hoverable>
         <n-timeline horizontal>
-          <n-timeline-item type="success" title="开题" time="2025-02-03 20:46" />
-          <n-timeline-item type="warning" content="后端开发" time="2025-03-23 20:46" />
-          <n-timeline-item type="success" title="中期答辩" time="2025-04-07 20:46" />
-          <n-timeline-item type="info" title="前端开发" time="2025-05-03 20:46" />
-          <n-timeline-item type="info" title="说明书编写" time="2025-05-23 20:46" />
-          <n-timeline-item type="success" title="答辩" time="2025-06-10 20:46" />
+          <n-timeline-item type="warning" title="建题" time="2025-02-03" />
+          <n-timeline-item type="success" content="开发完成" time="2025-02-23" />
         </n-timeline>
       </n-card>
     </div>

@@ -174,7 +174,7 @@ class CrawlerController(CRUDBase[Crawler, CrawlerCreate, CrawlerUpdate]):
                     self.saveState()
                     self.translate(letter[0] / 2, letter[1] / 2)
                     self.rotate(45)
-                    self.drawCentredString(0, 0, "网页敏感词检测-毕业设计-白伟丁")
+                    self.drawCentredString(0, 0, "网页敏感词检测")
                     self.restoreState()
                     canvas.Canvas.showPage(self)
                 canvas.Canvas.save(self)
