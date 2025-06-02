@@ -1,6 +1,6 @@
 import os
 import typing
-
+from app.utils.oss_config import host, port, user, password
 from pydantic_settings import BaseSettings
 
 
@@ -28,10 +28,10 @@ class Settings(BaseSettings):
             "mysql": {
                 "engine": "tortoise.backends.mysql",
                 "credentials": {
-                    "host": "rm-2ze7td37h05fd80qnpo.mysql.rds.aliyuncs.com",  # Database host address
-                    "port": 3306,  # Database port
-                    "user": "root",  # Database username
-                    "password": "Zrqznb020528!",  # Database password
+                    "host": host,  # Database host address
+                    "port": port,  # Database port
+                    "user": user,  # Database username
+                    "password": password,  # Database password
                     "database": "sensitivedetection",  # Database name
                 },
             },
