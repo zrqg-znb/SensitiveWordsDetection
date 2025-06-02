@@ -21,7 +21,7 @@ dependencies = [
     "argon2-cffi==23.1.0",
     "pydantic-core==2.27.2",
     "annotated-types==0.7.0",
-    "setuptools==75.8.0",
+    "setuptools==78.1.1",
     "uvicorn==0.34.0",
     "h11==0.14.0",
     "aerich==0.8.1",
